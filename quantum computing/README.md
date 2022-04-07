@@ -23,4 +23,5 @@ For final leg of our exploration, we shifted our focus to Variation Semi-Quantum
 ## [QML](https://github.com/ceyxasm/implementations/tree/main/quantum%20computing/QML)
 * Binary classifier
 * Quantum Regressor
+
 [report](https://github.com/ceyxasm/implementations/blob/main/quantum%20computing/QML/qml_paper.pdf)
