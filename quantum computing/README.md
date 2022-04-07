@@ -7,7 +7,7 @@ To begin with, popular Quantum protocols were implemented like
 * Entanglement
 
 Further next, various Algorithms and Implementations were materialized
-## [Q_implementations](quantum computing/Q_implementations)
+## [Q_implementations](/quantum computing/Q_implementations)
 * half-adder
 * Quantum Coin game
 * Quantum random walk
