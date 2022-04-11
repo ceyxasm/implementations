@@ -1,4 +1,5 @@
-#Introduction
+# Introduction
+
 These notebooks were made as a part of implementation and exploration of material and subject matter learned during Probability and Stats course- in my Sophomore year
 
 [How often does the better team win](https://github.com/ceyxasm/implementations/blob/main/probability%20and%20stats/ipl.ipynb)
