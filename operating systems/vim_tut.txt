@@ -1,0 +1,56 @@
+tutorial for vim
+---------------
+(following this tutorial from https://www.youtube.com/watch?v=IiwGbcd8S7I)
+1. in non-insert mode,
+	:q to quit
+	:wq to save and quit
+	:q! to quit without saving
+	:w to just save
+
+2. by default we are in command mode when we enter vim
+3. pressing i helps u enter insert mode and pressing escape exits command mode
+4. in command mode, pressing 'dd' deletes a line, and copies it in  clipboard
+		9dd will delete 9 lines of code 
+	j to go down
+	k to go up
+	h to go left
+	l to go right
+	w takes us to the next word
+	b takes us to the previous word
+	:30 will take us to line 30
+	0w to start of a line
+	$ for end of the line
+	W ignores puntcuations and same goes for B
+	t! will take us to the ! in the line
+	D to delete rest of the line
+5. other way to navigate is
+	'gg' to reach top
+	'G' to reach bottom
+	'}' skip code blocks forwards
+	'{' skip code blocks backwards
+	50k makes u go 50 lines down
+	20j makes u go 20 lines up (same for h and l, { and })
+6. u in command undoes previous mess-up ( a dd? )
+7 in the same time ctrl+r is redo
+8. '.' redoes previous command
+9. in command mode, yy to copy a line and p to paste it (creates a new line and pastes it below there, while P pastes above)
+
+10. V puts u in visual mode where we can select text by going up and down 
+	with this selected text:
+	d to delete
+	10.1 v to highlight with more flexibility
+	10.2 ctrl+v selects column wize
+
+11.another method to enter inset mode is 'o'
+	(adds line below and puts u in insert mode; while 'O' adds line above)
+
+12. key expansions are amazing 
+	d} deletes an entire block
+
+13. '*' in command mode helps in toggling between different instances of the pointer-term
+
+14. 'x' just deletes the character at the cursor
+15. '3r7' eats 3 cursors and replaces them with 7
+16. R activates eating cursor 
+17. < and > to indend code
+18. % shows the opening and closing of the code block we are in
