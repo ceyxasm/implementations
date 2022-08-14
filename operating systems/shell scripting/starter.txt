@@ -1,0 +1,42 @@
+DEMO
+
+1. cat /etc/shells- gives available shell
+	which bash: gives location of bash
+2. there are two types of variables in shell
+	User variables: 
+	System variables: maintained by the the OS, usually in capital case
+
+3. variables should not start with number
+4. commenting can be done using #
+5. input can be read from terminal using read command
+	read var_name
+5.1 to take input on same line
+	read -p 'message ' var_name
+
+6. for hidden inputs
+	read -sp 'message' bar_name
+
+7. default variable in which our input goes in after input is REPLY
+8 to take array inputs
+	read -a var_name
+
+9. PASS ARGUMENTS TO A BASH SCRIPT:
+a) when arguments are passed it is by default stored in $1, $2, $3 
+b) name of the script goes in $0
+c) arguements can also be parsed as an array
+	args= ("$@")
+	while in $ parsing; the arguments are named from 1 2 3.... with 0 being the script name, in case of array parsing, the arguments start from 0 index itself
+d) echo $# gives us the number of arguments
+
+10. FILE OPERATIONS
+	echo -e "message: \c" ##keeps the cursor on the same line
+	a) if [ -e file_name ] : flags for the existence of file
+	b) -f checks if its regular file or not
+	c) -d checks for directories
+	d) -b checks for block special files
+	e) -c checks for character special file
+	f) -s checks if file is empty or not	[if true, then not empty]
+	g) -r, -w, -x can be used to check if we have read, write and execute perms or not
+file can be two types: 
+	charachter file: text data 
+	block file: binary/img/vid/mp3
