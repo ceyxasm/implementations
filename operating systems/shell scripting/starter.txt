@@ -39,4 +39,78 @@ d) echo $# gives us the number of arguments
 	g) -r, -w, -x can be used to check if we have read, write and execute perms or not
 file can be two types: 
 	charachter file: text data 
-	block file: binary/img/vid/mp3
+	block file: binary/img/vid/mp
+
+11. cat > overwrites while cat >> appends
+
+12. SYNTAXES
+a) logical AND
+	if [ cond1] && [ cond2 ] 
+	if [ cond1 -a cond2 ]
+	if [[ cond1 && cond2 ]]
+b) logical OR
+	&& -> || ; -a -> -o;
+
+13. ARITHMETIC IN BASH
+	if n1, n2 be variables then
+	a) echo $((n1 OPERATION n2))
+	b) echo $(expr $n1 OPERATION $n2 )
+	NOTE: with expr command however, we need to escape * by \*
+
+by default scripting doesnt perform operations on decimal numbers
+for such cases we can use `bc`
+
+	echo "$n1 OPERATION $n2" | bc
+
+	Also we can put scale in division as: 
+	echo "scale=2; 20.5/5" | bc
+
+ii) echo "scale=2;sqrt($n2)" | bc -l 
+	-l is for importing maths library
+	similarly $n1^$n2
+
+
+14. CASE STATEMENTS
+15. ARRAYS
+	a) indexing starts from 0
+	b) refer to array.sh
+	
+
+16) sleep 1 will delay running of next command by 1sec
+17) reading files: refer to read.sh
+18) until: read until.sh
+19) for: refer for.sh
+	defs:
+	i) for VARIABLE in 1 2 3 4 5 6 7 ... N
+	ii) for VARIABLE in file1 fie2 file 3
+	iii) for OUTPUT in $(linux-command-here)
+	iv) for (( EXP!; EXP2; EXP3 ))
+	do
+		...commands
+	done
+
+20) select loop: refer to select.sh
+21) usage of break and continue is as in standard langs
+
+22) FUNCTIONS
+	a) each func behaves as an individual script
+	b) be default, every variable in script is a global variable, and can be	
+	made local using local keyword; [ can only be used within function ]
+
+	c) we can also make a variable read only by `readonly var`
+	d) to make a function read only:
+		`readonly -f fun_name`
+
+23) TRAP STATEMENTS
+C^ is an interrupt signal; sigint (value =2 )
+	Z^ is also interupt signal; suspend
+	`kill -9 <pid>` is sigkill (value 9 )
+	----we can use trap command to capture an interrupt and clean it
+	----sigkill and sigstop cannot be stopped, blocked or ignored
+
+24) DEBUGGING
+	a) to debug: bash -x <script.sh>
+	b) other option is to start script as `#!/bin/bash -x` and execute the script as normaly would
+	c) put `set -x` at any point in the script; 
+	  will start debugging from that point
+	 put `set +x` to stop debugging
