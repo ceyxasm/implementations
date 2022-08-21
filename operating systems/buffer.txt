@@ -1,0 +1,8 @@
+COMMANDS
+1) lscpu
+2) cat /proc/cpuinfo
+3) cat /proc/meminfo
+4) cat /proc/cpuinfo | grep "cpu cores"
+	"processors", "MHz"
+5) free -h
+6) vmstat -f
