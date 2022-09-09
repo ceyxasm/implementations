@@ -1,0 +1,4 @@
+clear
+ls
+free -h
+ping google.com
