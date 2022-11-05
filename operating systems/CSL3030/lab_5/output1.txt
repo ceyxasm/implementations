@@ -1,0 +1,578 @@
+Enter total number of processes: 5
+ Enter virtual address space (total number of pages): 20
+ Enter physical address space (total number of frames): 5
+ Enter size of TLB: 3
+ Process 4 has 7 pages
+page 4 of process PID: 4 not found in page table, page fault occured, free frame: 0 availabe and was allocated
+page 3 of process PID: 4 not found in page table, page fault occured, free frame: 1 availabe and was allocated
+page 2 of process PID: 4 not found in page table, page fault occured, free frame: 2 availabe and was allocated
+page 4 of process PID: 4 found in TLB
+page 3 of process PID: 4 found in TLB
+page 6 of process PID: 4 not found in page table, page fault occured, free frame: 3 availabe and was allocated
+page 7 of process PID: 4 not found in page table, page fault occured, free frame: 4 availabe and was allocated
+page 5 of process PID: 4 not found in page table, page fault occured; moreover free frame was not available and Least recently used page was swapped
+page 7 of process PID: 4 found in TLB
+page 1 of process PID: 4 not found in page table, page fault occured; moreover free frame was not available and Least recently used page was swapped
+page 4 of process PID: 4 found in page table
+page 2 of process PID: 4 not found in page table, page fault occured; moreover free frame was not available and Least recently used page was swapped
+page 3 of process PID: 4 not found in page table, page fault occured; moreover free frame was not available and Least recently used page was swapped
+page 3 of process PID: 4 found in TLB
+page 4 of process PID: 4 found in page table
+page 1 of process PID: 4 not found in page table, page fault occured; moreover free frame was not available and Least recently used page was swapped
+page 6 of process PID: 4 found in page table
+page 3 of process PID: 4 not found in page table, page fault occured; moreover free frame was not available and Least recently used page was swapped
+page 3 of process PID: 4 found in TLB
+page 6 of process PID: 4 found in page table
+page 6 of process PID: 4 found in TLB
+page 7 of process PID: 4 found in page table
+page 2 of process PID: 4 found in page table
+page 6 of process PID: 4 found in page table
+page 6 of process PID: 4 found in TLB
+page 1 of process PID: 4 not found in page table, page fault occured; moreover free frame was not available and Least recently used page was swapped
+page 4 of process PID: 4 found in page table
+page 6 of process PID: 4 found in page table
+page 4 of process PID: 4 found in TLB
+page 3 of process PID: 4 found in page table
+page 2 of process PID: 4 found in page table
+page 1 of process PID: 4 found in page table
+page 3 of process PID: 4 found in TLB
+page 3 of process PID: 4 found in TLB
+page 2 of process PID: 4 found in TLB
+page 5 of process PID: 4 not found in page table, page fault occured; moreover free frame was not available and Least recently used page was swapped
+page 6 of process PID: 4 found in page table
+page 1 of process PID: 4 found in TLB
+page 7 of process PID: 4 not found in page table, page fault occured; moreover free frame was not available and Least recently used page was swapped
+page 4 of process PID: 4 not found in page table, page fault occured; moreover free frame was not available and Least recently used page was swapped
+page 7 of process PID: 4 found in TLB
+page 3 of process PID: 4 not found in page table, page fault occured; moreover free frame was not available and Least recently used page was swapped
+page 3 of process PID: 4 found in TLB
+page 2 of process PID: 4 found in page table
+page 4 of process PID: 4 found in TLB
+page 6 of process PID: 4 found in page table
+page 1 of process PID: 4 not found in page table, page fault occured; moreover free frame was not available and Least recently used page was swapped
+page 2 of process PID: 4 found in TLB
+page 2 of process PID: 4 found in TLB
+page 3 of process PID: 4 found in TLB
+page 5 of process PID: 4 not found in page table, page fault occured; moreover free frame was not available and Least recently used page was swapped
+page 5 of process PID: 4 found in TLB
+page 2 of process PID: 4 found in TLB
+page 4 of process PID: 4 not found in page table, page fault occured; moreover free frame was not available and Least recently used page was swapped
+page 3 of process PID: 4 not found in page table, page fault occured; moreover free frame was not available and Least recently used page was swapped
+page 7 of process PID: 4 found in page table
+page 5 of process PID: 4 found in TLB
+page 6 of process PID: 4 not found in page table, page fault occured; moreover free frame was not available and Least recently used page was swapped
+page 4 of process PID: 4 found in TLB
+page 6 of process PID: 4 found in TLB
+page 6 of process PID: 4 found in TLB
+page 5 of process PID: 4 found in TLB
+page 4 of process PID: 4 found in TLB
+page 1 of process PID: 4 found in page table
+page 6 of process PID: 4 found in TLB
+page 4 of process PID: 4 found in TLB
+page 3 of process PID: 4 found in page table
+page 4 of process PID: 4 found in TLB
+page 4 of process PID: 4 found in TLB
+page 3 of process PID: 4 found in TLB
+page 5 of process PID: 4 found in page table
+page 1 of process PID: 4 found in TLB
+page 3 of process PID: 4 found in TLB
+page 1 of process PID: 4 found in TLB
+page 1 of process PID: 4 found in TLB
+page 4 of process PID: 4 found in TLB
+page 6 of process PID: 4 found in TLB
+page 1 of process PID: 4 found in TLB
+page 5 of process PID: 4 found in TLB
+page 5 of process PID: 4 found in TLB
+page 1 of process PID: 4 found in TLB
+page 3 of process PID: 4 found in TLB
+page 2 of process PID: 4 not found in page table, page fault occured; moreover free frame was not available and Least recently used page was swapped
+page 2 of process PID: 4 found in TLB
+page 6 of process PID: 4 found in TLB
+page 5 of process PID: 4 found in TLB
+page 6 of process PID: 4 found in TLB
+page 1 of process PID: 4 found in TLB
+page 1 of process PID: 4 found in TLB
+page 2 of process PID: 4 found in TLB
+page 5 of process PID: 4 found in TLB
+page 7 of process PID: 4 found in TLB
+page 5 of process PID: 4 found in TLB
+page 1 of process PID: 4 found in TLB
+page 5 of process PID: 4 found in TLB
+page 1 of process PID: 4 found in TLB
+page 4 of process PID: 4 not found in page table, page fault occured; moreover free frame was not available and Least recently used page was swapped
+page 1 of process PID: 4 found in TLB
+page 2 of process PID: 4 found in TLB
+page 6 of process PID: 4 found in TLB
+page 1 of process PID: 4 found in TLB
+page 7 of process PID: 4 not found in page table, page fault occured; moreover free frame was not available and Least recently used page was swapped
+page 4 of process PID: 4 found in page table
+page 1 of process PID: 4 found in TLB
+page 7 of process PID: 4 found in TLB
+page 2 of process PID: 4 found in TLB
+page 5 of process PID: 4 found in page table
+page 3 of process PID: 4 found in page table
+page 7 of process PID: 4 found in TLB
+page 7 of process PID: 4 found in TLB
+page 1 of process PID: 4 found in TLB
+page 7 of process PID: 4 found in TLB
+page 7 of process PID: 4 found in TLB
+page 2 of process PID: 4 found in TLB
+page 6 of process PID: 4 not found in page table, page fault occured; moreover free frame was not available and Least recently used page was swapped
+page 4 of process PID: 4 not found in page table, page fault occured; moreover free frame was not available and Least recently used page was swapped
+page 4 of process PID: 4 found in TLB
+page 5 of process PID: 4 found in page table
+page 4 of process PID: 4 found in TLB
+page 5 of process PID: 4 found in TLB
+page 4 of process PID: 4 found in TLB
+page 6 of process PID: 4 not found in page table, page fault occured; moreover free frame was not available and Least recently used page was swapped
+page 2 of process PID: 4 found in TLB
+page 6 of process PID: 4 found in TLB
+page 5 of process PID: 4 found in TLB
+page 4 of process PID: 4 not found in page table, page fault occured; moreover free frame was not available and Least recently used page was swapped
+page 6 of process PID: 4 found in TLB
+page 6 of process PID: 4 found in TLB
+page 2 of process PID: 4 found in TLB
+page 1 of process PID: 4 found in page table
+page 2 of process PID: 4 found in TLB
+page 2 of process PID: 4 found in TLB
+page 5 of process PID: 4 found in page table
+page 6 of process PID: 4 found in TLB
+page 1 of process PID: 4 found in TLB
+
+
+page faults for process 4: 28
+Process 2 has 13 pages
+page 2 of process PID: 2 not found in page table, page fault occured, free frame: 0 availabe and was allocated
+page 6 of process PID: 2 not found in page table, page fault occured, free frame: 1 availabe and was allocated
+page 6 of process PID: 2 found in TLB
+page 2 of process PID: 2 found in TLB
+page 3 of process PID: 2 not found in page table, page fault occured, free frame: 2 availabe and was allocated
+page 1 of process PID: 2 not found in page table, page fault occured, free frame: 3 availabe and was allocated
+page 8 of process PID: 2 not found in page table, page fault occured, free frame: 4 availabe and was allocated
+page 9 of process PID: 2 not found in page table, page fault occured; moreover free frame was not available and Least recently used page was swapped
+page 4 of process PID: 2 not found in page table, page fault occured; moreover free frame was not available and Least recently used page was swapped
+page 8 of process PID: 2 found in TLB
+page 6 of process PID: 2 found in TLB
+page 6 of process PID: 2 found in TLB
+page 2 of process PID: 2 found in TLB
+page 6 of process PID: 2 found in TLB
+page 1 of process PID: 2 found in TLB
+page 4 of process PID: 2 found in TLB
+page 11 of process PID: 2 not found in page table, page fault occured; moreover free frame was not available and Least recently used page was swapped
+page 10 of process PID: 2 not found in page table, page fault occured; moreover free frame was not available and Least recently used page was swapped
+page 3 of process PID: 2 found in TLB
+page 4 of process PID: 2 found in TLB
+page 3 of process PID: 2 found in TLB
+page 1 of process PID: 2 found in TLB
+page 3 of process PID: 2 found in TLB
+page 5 of process PID: 2 not found in page table, page fault occured; moreover free frame was not available and Least recently used page was swapped
+page 8 of process PID: 2 found in TLB
+page 3 of process PID: 2 found in TLB
+page 8 of process PID: 2 found in TLB
+page 13 of process PID: 2 not found in page table, page fault occured; moreover free frame was not available and Least recently used page was swapped
+page 9 of process PID: 2 found in TLB
+page 6 of process PID: 2 found in TLB
+page 5 of process PID: 2 found in TLB
+page 11 of process PID: 2 found in TLB
+page 13 of process PID: 2 found in TLB
+page 12 of process PID: 2 not found in page table, page fault occured; moreover free frame was not available and Least recently used page was swapped
+page 1 of process PID: 2 found in TLB
+page 2 of process PID: 2 found in TLB
+page 13 of process PID: 2 found in TLB
+page 10 of process PID: 2 found in TLB
+page 11 of process PID: 2 found in TLB
+page 3 of process PID: 2 found in TLB
+page 4 of process PID: 2 found in TLB
+page 3 of process PID: 2 found in TLB
+page 11 of process PID: 2 found in TLB
+page 5 of process PID: 2 found in TLB
+page 10 of process PID: 2 found in TLB
+page 11 of process PID: 2 found in TLB
+page 11 of process PID: 2 found in TLB
+page 9 of process PID: 2 found in TLB
+
+
+page faults for process 2: 12
+Process 5 has 17 pages
+page 15 of process PID: 5 not found in page table, page fault occured, free frame: 0 availabe and was allocated
+page 4 of process PID: 5 not found in page table, page fault occured, free frame: 1 availabe and was allocated
+page 16 of process PID: 5 not found in page table, page fault occured, free frame: 2 availabe and was allocated
+page 9 of process PID: 5 not found in page table, page fault occured, free frame: 3 availabe and was allocated
+page 14 of process PID: 5 not found in page table, page fault occured, free frame: 4 availabe and was allocated
+page 11 of process PID: 5 not found in page table, page fault occured; moreover free frame was not available and Least recently used page was swapped
+page 16 of process PID: 5 found in TLB
+page 6 of process PID: 5 not found in page table, page fault occured; moreover free frame was not available and Least recently used page was swapped
+page 11 of process PID: 5 found in TLB
+page 14 of process PID: 5 found in TLB
+page 7 of process PID: 5 not found in page table, page fault occured; moreover free frame was not available and Least recently used page was swapped
+page 5 of process PID: 5 not found in page table, page fault occured; moreover free frame was not available and Least recently used page was swapped
+page 3 of process PID: 5 not found in page table, page fault occured; moreover free frame was not available and Least recently used page was swapped
+page 3 of process PID: 5 found in TLB
+page 16 of process PID: 5 found in TLB
+page 7 of process PID: 5 found in TLB
+page 8 of process PID: 5 not found in page table, page fault occured; moreover free frame was not available and Least recently used page was swapped
+page 2 of process PID: 5 not found in page table, page fault occured; moreover free frame was not available and Least recently used page was swapped
+page 12 of process PID: 5 not found in page table, page fault occured; moreover free frame was not available and Least recently used page was swapped
+page 3 of process PID: 5 found in TLB
+page 17 of process PID: 5 not found in page table, page fault occured; moreover free frame was not available and Least recently used page was swapped
+page 5 of process PID: 5 found in TLB
+page 10 of process PID: 5 not found in page table, page fault occured; moreover free frame was not available and Least recently used page was swapped
+page 6 of process PID: 5 found in TLB
+page 16 of process PID: 5 found in TLB
+page 8 of process PID: 5 found in TLB
+page 12 of process PID: 5 found in TLB
+page 14 of process PID: 5 found in TLB
+page 7 of process PID: 5 found in TLB
+page 3 of process PID: 5 found in TLB
+page 6 of process PID: 5 found in TLB
+page 13 of process PID: 5 not found in page table, page fault occured; moreover free frame was not available and Least recently used page was swapped
+page 7 of process PID: 5 found in TLB
+page 5 of process PID: 5 found in TLB
+page 12 of process PID: 5 found in TLB
+page 3 of process PID: 5 found in TLB
+page 6 of process PID: 5 found in TLB
+page 10 of process PID: 5 found in TLB
+page 16 of process PID: 5 found in TLB
+page 17 of process PID: 5 found in TLB
+page 14 of process PID: 5 found in TLB
+page 6 of process PID: 5 found in TLB
+page 12 of process PID: 5 found in TLB
+page 16 of process PID: 5 found in TLB
+page 8 of process PID: 5 found in TLB
+page 10 of process PID: 5 found in TLB
+page 5 of process PID: 5 found in TLB
+page 6 of process PID: 5 found in TLB
+page 3 of process PID: 5 found in TLB
+page 7 of process PID: 5 found in TLB
+page 8 of process PID: 5 found in TLB
+page 2 of process PID: 5 found in TLB
+page 3 of process PID: 5 found in TLB
+page 17 of process PID: 5 found in TLB
+page 15 of process PID: 5 found in TLB
+page 1 of process PID: 5 not found in page table, page fault occured; moreover free frame was not available and Least recently used page was swapped
+page 15 of process PID: 5 found in TLB
+page 9 of process PID: 5 found in TLB
+page 5 of process PID: 5 found in TLB
+page 13 of process PID: 5 found in TLB
+page 3 of process PID: 5 found in TLB
+page 11 of process PID: 5 found in TLB
+page 8 of process PID: 5 found in TLB
+page 9 of process PID: 5 found in TLB
+page 6 of process PID: 5 found in TLB
+page 10 of process PID: 5 found in TLB
+page 2 of process PID: 5 found in TLB
+page 11 of process PID: 5 found in TLB
+page 2 of process PID: 5 found in TLB
+page 17 of process PID: 5 found in TLB
+page 1 of process PID: 5 found in TLB
+page 16 of process PID: 5 found in TLB
+page 13 of process PID: 5 found in TLB
+page 13 of process PID: 5 found in TLB
+page 5 of process PID: 5 found in TLB
+page 3 of process PID: 5 found in TLB
+page 13 of process PID: 5 found in TLB
+page 10 of process PID: 5 found in TLB
+page 16 of process PID: 5 found in TLB
+page 15 of process PID: 5 found in TLB
+page 7 of process PID: 5 found in TLB
+page 6 of process PID: 5 found in TLB
+page 17 of process PID: 5 found in TLB
+page 9 of process PID: 5 found in TLB
+page 14 of process PID: 5 found in TLB
+page 5 of process PID: 5 found in TLB
+page 17 of process PID: 5 found in TLB
+page 2 of process PID: 5 found in TLB
+page 14 of process PID: 5 found in TLB
+page 5 of process PID: 5 found in TLB
+page 14 of process PID: 5 found in TLB
+page 16 of process PID: 5 found in TLB
+page 6 of process PID: 5 found in TLB
+
+
+page faults for process 5: 17
+Process 1 has 11 pages
+page 3 of process PID: 1 not found in page table, page fault occured, free frame: 0 availabe and was allocated
+page 4 of process PID: 1 not found in page table, page fault occured, free frame: 1 availabe and was allocated
+page 3 of process PID: 1 found in TLB
+page 2 of process PID: 1 not found in page table, page fault occured, free frame: 2 availabe and was allocated
+page 11 of process PID: 1 not found in page table, page fault occured, free frame: 3 availabe and was allocated
+page 2 of process PID: 1 found in TLB
+page 2 of process PID: 1 found in TLB
+page 7 of process PID: 1 not found in page table, page fault occured, free frame: 4 availabe and was allocated
+page 2 of process PID: 1 found in TLB
+page 7 of process PID: 1 found in TLB
+page 1 of process PID: 1 not found in page table, page fault occured; moreover free frame was not available and Least recently used page was swapped
+page 5 of process PID: 1 not found in page table, page fault occured; moreover free frame was not available and Least recently used page was swapped
+page 9 of process PID: 1 not found in page table, page fault occured; moreover free frame was not available and Least recently used page was swapped
+page 1 of process PID: 1 found in TLB
+page 6 of process PID: 1 not found in page table, page fault occured; moreover free frame was not available and Least recently used page was swapped
+page 9 of process PID: 1 found in TLB
+page 3 of process PID: 1 found in TLB
+page 6 of process PID: 1 found in TLB
+page 3 of process PID: 1 found in TLB
+page 5 of process PID: 1 found in TLB
+page 10 of process PID: 1 not found in page table, page fault occured; moreover free frame was not available and Least recently used page was swapped
+page 10 of process PID: 1 found in TLB
+page 11 of process PID: 1 found in TLB
+page 4 of process PID: 1 found in TLB
+page 10 of process PID: 1 found in TLB
+page 9 of process PID: 1 found in TLB
+page 3 of process PID: 1 found in TLB
+page 2 of process PID: 1 found in TLB
+page 8 of process PID: 1 not found in page table, page fault occured; moreover free frame was not available and Least recently used page was swapped
+page 8 of process PID: 1 found in TLB
+page 9 of process PID: 1 found in TLB
+page 10 of process PID: 1 found in TLB
+page 11 of process PID: 1 found in TLB
+page 9 of process PID: 1 found in TLB
+page 9 of process PID: 1 found in TLB
+page 9 of process PID: 1 found in TLB
+page 8 of process PID: 1 found in TLB
+page 11 of process PID: 1 found in TLB
+page 4 of process PID: 1 found in TLB
+page 9 of process PID: 1 found in TLB
+page 4 of process PID: 1 found in TLB
+page 2 of process PID: 1 found in TLB
+page 3 of process PID: 1 found in TLB
+page 1 of process PID: 1 found in TLB
+page 3 of process PID: 1 found in TLB
+page 6 of process PID: 1 found in TLB
+page 7 of process PID: 1 found in TLB
+page 5 of process PID: 1 found in TLB
+page 11 of process PID: 1 found in TLB
+page 8 of process PID: 1 found in TLB
+page 9 of process PID: 1 found in TLB
+page 10 of process PID: 1 found in TLB
+page 6 of process PID: 1 found in TLB
+page 6 of process PID: 1 found in TLB
+page 11 of process PID: 1 found in TLB
+page 3 of process PID: 1 found in TLB
+page 3 of process PID: 1 found in TLB
+page 11 of process PID: 1 found in TLB
+page 2 of process PID: 1 found in TLB
+page 8 of process PID: 1 found in TLB
+page 8 of process PID: 1 found in TLB
+page 10 of process PID: 1 found in TLB
+page 7 of process PID: 1 found in TLB
+page 5 of process PID: 1 found in TLB
+page 7 of process PID: 1 found in TLB
+page 2 of process PID: 1 found in TLB
+page 2 of process PID: 1 found in TLB
+page 2 of process PID: 1 found in TLB
+page 1 of process PID: 1 found in TLB
+page 6 of process PID: 1 found in TLB
+page 10 of process PID: 1 found in TLB
+page 2 of process PID: 1 found in TLB
+page 7 of process PID: 1 found in TLB
+page 1 of process PID: 1 found in TLB
+page 11 of process PID: 1 found in TLB
+page 7 of process PID: 1 found in TLB
+page 7 of process PID: 1 found in TLB
+page 7 of process PID: 1 found in TLB
+page 9 of process PID: 1 found in TLB
+page 4 of process PID: 1 found in TLB
+page 3 of process PID: 1 found in TLB
+page 4 of process PID: 1 found in TLB
+page 11 of process PID: 1 found in TLB
+page 6 of process PID: 1 found in TLB
+page 9 of process PID: 1 found in TLB
+page 10 of process PID: 1 found in TLB
+page 8 of process PID: 1 found in TLB
+page 9 of process PID: 1 found in TLB
+page 8 of process PID: 1 found in TLB
+page 8 of process PID: 1 found in TLB
+page 6 of process PID: 1 found in TLB
+page 4 of process PID: 1 found in TLB
+page 6 of process PID: 1 found in TLB
+page 10 of process PID: 1 found in TLB
+page 6 of process PID: 1 found in TLB
+page 11 of process PID: 1 found in TLB
+page 11 of process PID: 1 found in TLB
+page 8 of process PID: 1 found in TLB
+page 1 of process PID: 1 found in TLB
+page 10 of process PID: 1 found in TLB
+page 11 of process PID: 1 found in TLB
+page 10 of process PID: 1 found in TLB
+page 11 of process PID: 1 found in TLB
+page 4 of process PID: 1 found in TLB
+page 9 of process PID: 1 found in TLB
+page 11 of process PID: 1 found in TLB
+page 11 of process PID: 1 found in TLB
+
+
+page faults for process 1: 11
+Process 3 has 7 pages
+page 5 of process PID: 3 not found in page table, page fault occured, free frame: 0 availabe and was allocated
+page 5 of process PID: 3 found in TLB
+page 6 of process PID: 3 not found in page table, page fault occured, free frame: 1 availabe and was allocated
+page 5 of process PID: 3 found in TLB
+page 7 of process PID: 3 not found in page table, page fault occured, free frame: 2 availabe and was allocated
+page 3 of process PID: 3 not found in page table, page fault occured, free frame: 3 availabe and was allocated
+page 7 of process PID: 3 found in TLB
+page 4 of process PID: 3 not found in page table, page fault occured, free frame: 4 availabe and was allocated
+page 1 of process PID: 3 not found in page table, page fault occured; moreover free frame was not available and Least recently used page was swapped
+page 2 of process PID: 3 not found in page table, page fault occured; moreover free frame was not available and Least recently used page was swapped
+page 6 of process PID: 3 found in TLB
+page 2 of process PID: 3 found in TLB
+page 4 of process PID: 3 found in TLB
+page 4 of process PID: 3 found in TLB
+page 1 of process PID: 3 found in TLB
+page 7 of process PID: 3 found in TLB
+page 3 of process PID: 3 found in TLB
+page 5 of process PID: 3 found in TLB
+page 3 of process PID: 3 found in TLB
+page 7 of process PID: 3 found in TLB
+page 4 of process PID: 3 found in TLB
+page 1 of process PID: 3 found in TLB
+page 2 of process PID: 3 found in TLB
+page 7 of process PID: 3 found in TLB
+page 3 of process PID: 3 found in TLB
+page 6 of process PID: 3 found in TLB
+page 7 of process PID: 3 found in TLB
+page 3 of process PID: 3 found in TLB
+page 6 of process PID: 3 found in TLB
+page 3 of process PID: 3 found in TLB
+page 1 of process PID: 3 found in TLB
+page 2 of process PID: 3 found in TLB
+page 7 of process PID: 3 found in TLB
+page 6 of process PID: 3 found in TLB
+page 4 of process PID: 3 found in TLB
+page 6 of process PID: 3 found in TLB
+page 6 of process PID: 3 found in TLB
+page 4 of process PID: 3 found in TLB
+page 3 of process PID: 3 found in TLB
+page 6 of process PID: 3 found in TLB
+page 3 of process PID: 3 found in TLB
+page 6 of process PID: 3 found in TLB
+page 6 of process PID: 3 found in TLB
+page 4 of process PID: 3 found in TLB
+page 3 of process PID: 3 found in TLB
+page 6 of process PID: 3 found in TLB
+page 3 of process PID: 3 found in TLB
+page 5 of process PID: 3 found in TLB
+page 1 of process PID: 3 found in TLB
+page 3 of process PID: 3 found in TLB
+page 2 of process PID: 3 found in TLB
+page 4 of process PID: 3 found in TLB
+page 4 of process PID: 3 found in TLB
+page 3 of process PID: 3 found in TLB
+page 1 of process PID: 3 found in TLB
+page 4 of process PID: 3 found in TLB
+page 6 of process PID: 3 found in TLB
+page 7 of process PID: 3 found in TLB
+page 6 of process PID: 3 found in TLB
+page 5 of process PID: 3 found in TLB
+page 3 of process PID: 3 found in TLB
+page 6 of process PID: 3 found in TLB
+page 4 of process PID: 3 found in TLB
+page 7 of process PID: 3 found in TLB
+page 3 of process PID: 3 found in TLB
+page 7 of process PID: 3 found in TLB
+page 6 of process PID: 3 found in TLB
+page 1 of process PID: 3 found in TLB
+page 1 of process PID: 3 found in TLB
+page 6 of process PID: 3 found in TLB
+page 5 of process PID: 3 found in TLB
+page 3 of process PID: 3 found in TLB
+page 4 of process PID: 3 found in TLB
+page 1 of process PID: 3 found in TLB
+page 6 of process PID: 3 found in TLB
+page 4 of process PID: 3 found in TLB
+page 4 of process PID: 3 found in TLB
+page 6 of process PID: 3 found in TLB
+page 1 of process PID: 3 found in TLB
+page 5 of process PID: 3 found in TLB
+page 2 of process PID: 3 found in TLB
+page 7 of process PID: 3 found in TLB
+page 6 of process PID: 3 found in TLB
+page 3 of process PID: 3 found in TLB
+page 2 of process PID: 3 found in TLB
+page 7 of process PID: 3 found in TLB
+page 6 of process PID: 3 found in TLB
+page 1 of process PID: 3 found in TLB
+page 4 of process PID: 3 found in TLB
+page 4 of process PID: 3 found in TLB
+page 3 of process PID: 3 found in TLB
+page 6 of process PID: 3 found in TLB
+page 7 of process PID: 3 found in TLB
+page 6 of process PID: 3 found in TLB
+page 6 of process PID: 3 found in TLB
+page 2 of process PID: 3 found in TLB
+page 5 of process PID: 3 found in TLB
+page 2 of process PID: 3 found in TLB
+page 1 of process PID: 3 found in TLB
+page 6 of process PID: 3 found in TLB
+page 7 of process PID: 3 found in TLB
+page 3 of process PID: 3 found in TLB
+page 6 of process PID: 3 found in TLB
+page 1 of process PID: 3 found in TLB
+page 3 of process PID: 3 found in TLB
+page 3 of process PID: 3 found in TLB
+page 5 of process PID: 3 found in TLB
+page 6 of process PID: 3 found in TLB
+page 6 of process PID: 3 found in TLB
+page 3 of process PID: 3 found in TLB
+page 1 of process PID: 3 found in TLB
+page 5 of process PID: 3 found in TLB
+page 3 of process PID: 3 found in TLB
+page 7 of process PID: 3 found in TLB
+page 7 of process PID: 3 found in TLB
+page 2 of process PID: 3 found in TLB
+page 4 of process PID: 3 found in TLB
+page 3 of process PID: 3 found in TLB
+page 7 of process PID: 3 found in TLB
+page 7 of process PID: 3 found in TLB
+page 4 of process PID: 3 found in TLB
+page 7 of process PID: 3 found in TLB
+page 4 of process PID: 3 found in TLB
+page 2 of process PID: 3 found in TLB
+page 5 of process PID: 3 found in TLB
+page 7 of process PID: 3 found in TLB
+page 3 of process PID: 3 found in TLB
+page 1 of process PID: 3 found in TLB
+page 6 of process PID: 3 found in TLB
+page 1 of process PID: 3 found in TLB
+page 4 of process PID: 3 found in TLB
+page 3 of process PID: 3 found in TLB
+page 3 of process PID: 3 found in TLB
+page 7 of process PID: 3 found in TLB
+page 3 of process PID: 3 found in TLB
+page 3 of process PID: 3 found in TLB
+page 7 of process PID: 3 found in TLB
+page 5 of process PID: 3 found in TLB
+page 7 of process PID: 3 found in TLB
+page 6 of process PID: 3 found in TLB
+page 6 of process PID: 3 found in TLB
+page 7 of process PID: 3 found in TLB
+page 3 of process PID: 3 found in TLB
+page 1 of process PID: 3 found in TLB
+page 4 of process PID: 3 found in TLB
+page 1 of process PID: 3 found in TLB
+page 7 of process PID: 3 found in TLB
+page 7 of process PID: 3 found in TLB
+page 1 of process PID: 3 found in TLB
+page 5 of process PID: 3 found in TLB
+page 5 of process PID: 3 found in TLB
+page 5 of process PID: 3 found in TLB
+page 4 of process PID: 3 found in TLB
+page 6 of process PID: 3 found in TLB
+page 6 of process PID: 3 found in TLB
+page 2 of process PID: 3 found in TLB
+page 5 of process PID: 3 found in TLB
+page 6 of process PID: 3 found in TLB
+page 7 of process PID: 3 found in TLB
+page 3 of process PID: 3 found in TLB
+page 7 of process PID: 3 found in TLB
+page 3 of process PID: 3 found in TLB
+page 5 of process PID: 3 found in TLB
+page 7 of process PID: 3 found in TLB
+page 7 of process PID: 3 found in TLB
+page 5 of process PID: 3 found in TLB
+
+
+page faults for process 3: 7
+
+
+Total page faults: 75
+Total page hits: 25
+Total TLB hits: 449

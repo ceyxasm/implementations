@@ -2,3 +2,7 @@ clear
 ls
 free -h
 ping google.com
+[A
+[A
+clear
+exit

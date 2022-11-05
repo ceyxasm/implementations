@@ -1,4 +1,9 @@
 #include <bits/stdc++.h>
+#include <sys/wait.h>
+#include <sys/fcntl.h>
+#include <sys/unistd.h>
+#include <sys/types.h>
+
 using namespace std;
 
 int main( int argc, char *argv[])
@@ -7,23 +12,23 @@ int main( int argc, char *argv[])
 	char *name= argv[1]; //name of the file to be access is assummed
 			      //to be passed as first argument
 
-	fp= open( name, "r" ); // "r" for read
+	fp= fopen( name, "r" ); // "r" for read
 				// "w" for write
 				// "a" for append
-	fp2= creat( argv[2], 0644 );
+	fp2= fopen( argv[2], "w" );
 	int c;
 	int counter=0;
 
 	while(1)
 	{
-		c=fgetc(fp);
+		c=getc(fp);
 		if( feof(fp)) break;
 		if( c>='A' && c<='Z')
-			printf( "%c", c-'A'+'a' );
+			putw(  c-'A'+'a' , fp2);
 		if( c>='a' && c<='z')
-			printf( "%c", c-'a'+'A');
+			putw( c-'a'+'A', fp2);
 		else {
-			printf("%c", c);
+			putw( c, fp2);
 			counter++;
 		}
 	}

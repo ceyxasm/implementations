@@ -1,0 +1,4 @@
+1. file_access.cpp: accessing files other than stdin and stdout
+	using: getc( fp)
+	       putw( c, fp)
+	       FILE *fp; fp= fopen( argv[1], "w" )

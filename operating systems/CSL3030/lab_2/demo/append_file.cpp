@@ -1,14 +1,13 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-
-static void appendLineToNewFile(string filepath, string line)
-        //if we want to create new file
+static void appendLineToFile(string filepath, string line) 
+	//if we want to add a line to a file
 {
     std::ofstream file;
     //can't enable exception now because of gcc bug that raises ios_base::failure with useless message
     //file.exceptions(file.exceptions() | std::ios::failbit);
-    file.open(filepath, std::ios::out | std::ios::trunc);
+    file.open(filepath, std::ios::out | std::ios::app);
     if (file.fail())
         throw std::ios_base::failure(std::strerror(errno));
 
@@ -17,6 +16,7 @@ static void appendLineToNewFile(string filepath, string line)
 
     file << line << std::endl;
 }
+
 
 int main(int argc, char* argv[])
 {
