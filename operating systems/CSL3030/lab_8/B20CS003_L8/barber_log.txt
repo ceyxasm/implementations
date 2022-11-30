@@ -1,0 +1,93 @@
+customer wakes up barber 
+customer 0 arrived and takes chair : 7
+barber is cutting hair
+customer 0 is getting haircut
+barber finished cutting hair
+customer 1 arrived and takes chair : 6
+customer 2 arrived and takes chair : 5
+customer 3 arrived and takes chair : 4
+customer 4 arrived and takes chair : 3
+customer 5 arrived and takes chair : 2
+customer 6 arrived and takes chair : 1
+barber is cutting hair
+customer 1 is getting haircut
+customer 7 arrived and takes chair : 1
+customer 8 arrived and takes chair : 0
+customer 9 leaves, chairs full
+customer 10 leaves, chairs full
+customer 11 leaves, chairs full
+customer 12 leaves, chairs full
+customer 13 leaves, chairs full
+customer 14 leaves, chairs full
+barber finished cutting hair
+customer 15 leaves, chairs full
+customer 16 leaves, chairs full
+customer 17 leaves, chairs full
+barber is cutting hair
+customer 2 is getting haircut
+customer 18 arrived and takes chair : 0
+customer 19 leaves, chairs full
+customer 20 leaves, chairs full
+customer 21 leaves, chairs full
+customer 22 leaves, chairs full
+customer 23 leaves, chairs full
+customer 24 leaves, chairs full
+customer 25 leaves, chairs full
+barber finished cutting hair
+barber is cutting hair
+customer 3 is getting haircut
+customer 26 arrived and takes chair : 0
+customer 27 leaves, chairs full
+barber finished cutting hair
+customer 28 leaves, chairs full
+customer 29 leaves, chairs full
+customer 30 leaves, chairs full
+customer 31 leaves, chairs full
+barber is cutting hair
+customer 4 is getting haircut
+customer 32 arrived and takes chair : 0
+customer 33 leaves, chairs full
+customer 34 leaves, chairs full
+customer 35 leaves, chairs full
+customer 36 leaves, chairs full
+customer 37 leaves, chairs full
+customer 38 leaves, chairs full
+barber finished cutting hair
+barber is cutting hair
+customer 5 is getting haircut
+customer 39 arrived and takes chair : 0
+customer 40 leaves, chairs full
+customer 41 leaves, chairs full
+customer 42 leaves, chairs full
+customer 43 leaves, chairs full
+customer 44 leaves, chairs full
+customer 45 leaves, chairs full
+customer 46 leaves, chairs full
+customer 47 leaves, chairs full
+barber finished cutting hair
+barber is cutting hair
+customer 6 is getting haircut
+customer 48 arrived and takes chair : 0
+customer 49 leaves, chairs full
+barber finished cutting hair
+barber is cutting hair
+customer 7 is getting haircut
+barber finished cutting hair
+barber is cutting hair
+customer 8 is getting haircut
+barber finished cutting hair
+barber is cutting hair
+customer 18 is getting haircut
+barber finished cutting hair
+barber is cutting hair
+customer 26 is getting haircut
+barber finished cutting hair
+barber is cutting hair
+customer 32 is getting haircut
+barber finished cutting hair
+barber is cutting hair
+customer 39 is getting haircut
+barber finished cutting hair
+barber is cutting hair
+customer 48 is getting haircut
+barber finished cutting hair

@@ -1,0 +1,85 @@
+Enter total number of cylinders : 8
+enter number of requestes : 8
+Enter request arrival time for every cylinder : 176 114 79 92 60 41 34 11
+
+
+Enter 
+1 for FCFS 
+2 for SCAN
+3 for C_SCAN
+4 for SSTF
+any other to exit
+1
+
+Sequence of requsets : 176 114 79 92 60 41 34 11 
+Waiting time for every request : 0 62 35 13 32 19 7 23 
+Avg waiting time : 23.875000 
+TurnAround for every request : 62 35 13 32 19 7 23 0 
+Average TurnAround time : 23.875000
+Total Cylinder Movement : 191 
+____________________________________________________
+
+
+
+Enter 
+1 for FCFS 
+2 for SCAN
+3 for C_SCAN
+4 for SSTF
+any other to exit
+2
+176 199 176 114 92 79 60 41 
+
+Sequence of requests : 176 199 176 114 92 79 60 41 
+Waiting time for every request : 23 23 62 22 13 19 19 7 
+Average waiting Time : 26.375000 ms
+TurnAround for every request : 23 62 22 13 19 19 7 23 
+ Average TurnAround time : 23.500000
+Total Cylinder Movements: 211
+____________________________________________________
+
+
+
+Enter 
+1 for FCFS 
+2 for SCAN
+3 for C_SCAN
+4 for SSTF
+any other to exit
+3
+
+Sequence of requets : 176 176 199 0 11 34 41 60 79 92 
+Waiting time for every request : 0 23 199 11 23 7 19 19 13 22 
+Average waiting time is 42.000000 ms
+TurnAround for every request : 23 199 11 23 7 19 19 13 
+ Average TurnAround time : 39.250000
+Total Cylinder movement is 336
+____________________________________________________
+
+
+
+Enter 
+1 for FCFS 
+2 for SCAN
+3 for C_SCAN
+4 for SSTF
+any other to exit
+4
+
+Sequence of requests : 176 114 92 79 60 41 34 11 
+Waiting time for processes : 0 62 22 13 19 19 7 23 
+Average seek time is 20.625000
+TurnAround for every request : 62 22 13 19 19 7 23 79 
+ Average TurnAround time : 30.500000
+Total Cylinder Movements 165
+____________________________________________________
+
+
+
+Enter 
+1 for FCFS 
+2 for SCAN
+3 for C_SCAN
+4 for SSTF
+any other to exit
+0

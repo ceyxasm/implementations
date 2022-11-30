@@ -1,0 +1,151 @@
+
+________________________________
+COMMAND_LIST : 
+my_open
+my_close
+my_read
+my_write
+my_mkdir
+my_chdir
+my_rmdir
+my_copy
+1 : for exit
+
+my_open
+Enter filename: file1
+Enter file size in MB: 10
+Enter block size in KB: 512
+File opened !!
+
+________________________________
+COMMAND_LIST : 
+my_open
+my_close
+my_read
+my_write
+my_mkdir
+my_chdir
+my_rmdir
+my_copy
+1 : for exit
+
+my_write
+Enter content to write in file: "hello1"
+Data written in file !!
+
+________________________________
+COMMAND_LIST :
+my_open
+my_close
+my_read
+my_write
+my_mkdir
+my_chdir
+my_rmdir
+my_copy
+1 : for exit
+
+my_close
+File closed !!
+
+
+________________________________
+COMMAND_LIST : 
+my_open
+my_close
+my_read
+my_write
+my_mkdir
+my_chdir
+my_rmdir
+my_copy
+1 : for exit
+
+my_open
+Enter filename: file2
+Enter file size in MB: 10
+Enter block size in KB: 512
+File opened !!
+
+________________________________
+COMMAND_LIST : 
+my_open
+my_close
+my_read
+my_write
+my_mkdir
+my_chdir
+my_rmdir
+my_copy
+1 : for exit
+
+my_write
+Enter content to write in file: "hello2"
+Data written in file !!
+
+________________________________
+COMMAND_LIST : 
+my_open
+my_close
+my_read
+my_write
+my_mkdir
+my_chdir
+my_rmdir
+my_copy
+1 : for exit
+
+my_read
+Content in File file1:
+"hello2"
+
+________________________________
+COMMAND_LIST : 
+my_open
+my_close
+my_read
+my_write
+my_mkdir
+my_chdir
+my_rmdir
+my_copy
+1 : for exit
+
+my_close
+File closed !!
+
+
+________________________________
+COMMAND_LIST :
+my_open
+my_close
+my_read
+my_write
+my_mkdir
+my_chdir
+my_rmdir
+my_copy
+1 : for exit
+
+my_open
+Enter filename: file1
+Enter file size in MB: 10
+Enter block size in KB: 512
+File opened !!
+
+________________________________
+COMMAND_LIST : 
+my_open
+my_close
+my_read
+my_write
+my_mkdir
+my_chdir
+my_rmdir
+my_copy
+1 : for exit
+
+my_read
+Content in File file1:
+"hello1"
+
