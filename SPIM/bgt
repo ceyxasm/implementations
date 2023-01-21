@@ -1,0 +1,12 @@
+.text
+.globl main
+main:
+	li $t1, 5
+	li $t2, 3
+	bgt $t1, $t2, addition
+	sub $t1, $t1, $t2
+addition:
+	add $t1, $t1, $t2
+exit:
+	li $v0, 10
+	syscall
